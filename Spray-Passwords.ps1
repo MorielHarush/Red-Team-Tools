@@ -112,7 +112,7 @@ Param
     $Admins = $false
 
 )
-
+$ErrorActionPreference = 'SilentlyContinue'
 # Method to determine if input is numeric or not
 Function isNumeric ($x) {
     $x2 = 0
